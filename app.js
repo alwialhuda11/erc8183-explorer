@@ -22,7 +22,7 @@ function initParticles() {
     particle.style.left = Math.random() * 100 + "%";
     particle.style.animationDelay = Math.random() * 8 + "s";
     particle.style.animationDuration = 6 + Math.random() * 6 + "s";
-    const colors = ["#FF2D7B", "#00F0FF", "#39FF14", "#BF40FF", "#FFE600"];
+    const colors = ["#8B5CF6", "#A78BFA", "#C4A462", "#22D3EE", "#10B981"];
     particle.style.background = colors[Math.floor(Math.random() * colors.length)];
     particle.style.width = (1 + Math.random() * 2) + "px";
     particle.style.height = particle.style.width;
