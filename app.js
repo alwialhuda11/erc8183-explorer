@@ -1,5 +1,5 @@
 // ============================================
-// ERC-8183 Agentic Commerce Explorer
+// ArcFlow — Agentic Commerce Protocol Suite
 // Application Logic
 // ============================================
 
@@ -22,7 +22,7 @@ function initParticles() {
     particle.style.left = Math.random() * 100 + "%";
     particle.style.animationDelay = Math.random() * 8 + "s";
     particle.style.animationDuration = 6 + Math.random() * 6 + "s";
-    const colors = ["#D97706", "#F59E0B", "#EA580C", "#16A34A"];
+    const colors = ["#8B5CF6", "#A78BFA", "#C4A462", "#22D3EE", "#10B981"];
     particle.style.background = colors[Math.floor(Math.random() * colors.length)];
     particle.style.width = (1 + Math.random() * 2) + "px";
     particle.style.height = particle.style.width;
